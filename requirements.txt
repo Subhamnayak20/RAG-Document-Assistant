@@ -1,5 +1,6 @@
 streamlit
 pymupdf
+langchain-core
 langchain-text-splitters
 sentence-transformers
 chromadb
