@@ -1,14 +1,28 @@
-# Python
+
+# ==================================
+# PYTHON
+# ==================================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.egg-info/
+dist/
+build/
 
-# Virtual environment
+# ==================================
+# VIRTUAL ENVIRONMENTS
+# ==================================
 .venv/
-**/.venv/
 venv/
+env/
+ENV/
+**/.venv/
 **/venv/
-# Environment variables
+
+# ==================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==================================
 .env
 .env.*
 !.env.example
@@ -16,15 +30,55 @@ venv/
 # Streamlit secrets
 .streamlit/secrets.toml
 
-# ChromaDB
+# ==================================
+# DATA & VECTOR DATABASES
+# ==================================
 chroma_db/
 data/*
 !data/.gitkeep
 
-# IDE
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================================
+# MACHINE LEARNING MODELS
+# ==================================
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.keras
+
+# ==================================
+# LOGS & TEMPORARY FILES
+# ==================================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ==================================
+# JUPYTER
+# ==================================
+.ipynb_checkpoints/
+
+# ==================================
+# IDE & EDITORS
+# ==================================
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS
+# ==================================
+# OPERATING SYSTEM
+# ==================================
 .DS_Store
-EOF
+Thumbs.db
+desktop.ini
