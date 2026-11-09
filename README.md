@@ -6,7 +6,8 @@ Upload PDF or TXT documents and interact with their content through natural-lang
 
 ## 🚀 Live Demo
 
-**Live Application:** Coming Soon
+**Live Application:** : https://rag-document-assistant-m8ptjpg5hudfkmcq5ecc3r.streamlit.app/
+
 
 ## ✨ Features
 
